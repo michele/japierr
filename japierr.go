@@ -21,7 +21,7 @@ type Errors struct {
 	Errors []*Error `json:"errors"`
 }
 
-func NewErrors() Errors {
+func New() Errors {
 	return Errors{
 		Errors: []*Error{},
 	}
