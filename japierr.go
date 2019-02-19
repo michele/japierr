@@ -39,7 +39,7 @@ func (errs Errors) HasErrors() bool {
 	return len(errs.Errors) > 0
 }
 
-func newInvalidAttribute(attr, detail string) *Error {
+func NewInvalidAttribute(attr, detail string) *Error {
 	return &Error{
 		Status: "422",
 		Source: Pointer{
