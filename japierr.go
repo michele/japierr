@@ -30,7 +30,7 @@ func New() Errors {
 }
 
 func (errs *Errors) Append(e *Error) {
-	errs.Errors = append(err.Errors, e)
+	errs.Errors = append(errs.Errors, e)
 }
 
 func (errs Errors) IsEmpty() bool {
