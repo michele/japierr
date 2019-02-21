@@ -1,3 +1,5 @@
+package japierr
+
 import "fmt"
 
 type Error struct {
@@ -49,4 +51,3 @@ func NewInvalidAttribute(attr, detail string) *Error {
 		Detail: detail,
 	}
 }
-
